@@ -2340,13 +2340,35 @@ p {
     font-size: 0.9rem;
 }
 
+
 .contant-social-i {
     display: flex;
     gap: 12px;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
+     margin-top: 1.5rem;
 }
+.contant-social-i a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(200, 164, 107, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    transition: var(--transition);
+    font-size: 1rem;
+}
+
+.contant-social-i a:hover {
+    background: var(--gold);
+    color: var(--dark);
+    border-color: var(--gold);
+    transform: translateY(-3px);
+}
+
 
 /* MOBILE CENTER ALIGN */
 @media (max-width: 768px) {
